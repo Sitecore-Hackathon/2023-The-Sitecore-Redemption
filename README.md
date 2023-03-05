@@ -25,6 +25,7 @@ Best enhancement to SXA Headless
 ## Pre-requisites and Dependencies
 
 -   Sitecore 10.3 XM with SXA Headless (SIA)
+-   Sitecore Headless Services 
 -   Sitecore CLI 5.1.25 (Serialization)
 -   Node JS
 -   JSS CLI
@@ -43,9 +44,9 @@ Best enhancement to SXA Headless
 
 #### Sitecore Setup
 
-1. Install Sitecore 10.3 XM with SXA using SIA
+1. Install Sitecore 10.3 XM with SXA using SIA, and Sitecore Headless Services
 2. Make sure [Sitecore Management Services](https://doc.sitecore.com/xp/en/developers/103/developer-tools/sitecore-management-services.html) is installed 
-2. Install Sitecore CLI by running:  `dotnet tool restore` or visit [this link](https://doc.sitecore.com/xp/en/developers/103/developer-tools/install-sitecore-command-line-interface.html).
+2. From the repo root, Install Sitecore CLI by running:  `dotnet tool restore` or visit [this link](https://doc.sitecore.com/xp/en/developers/103/developer-tools/install-sitecore-command-line-interface.html).
 3. Login to Sitecore CLI:  `dotnet sitecore login --authority https://<Sitecore identity server> --cm http://<Sitecore instance> --allow-write true`
 4. Run `dotnet sitecore ser push`
 5. Publish site
@@ -60,6 +61,7 @@ Best enhancement to SXA Headless
 6. Run `jss setup`
     - Note: API key is already created and serialized. Use: `F14140A1-C283-4A8C-B8A3-1AEC85E5A218`
 7. Run `jss deploy config`
+8. Run `iisreset` (sometimes the configuration does not immediately take effect and requires a reset)
 8. Run `jss start:connected`
 
 ### Configuration
