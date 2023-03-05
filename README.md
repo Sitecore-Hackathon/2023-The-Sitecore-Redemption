@@ -57,7 +57,7 @@ Best enhancement to SXA Headless
 2. Install JSS CLI - `npm install -g @sitecore-jss/sitecore-jss-cli`
 3. Run `Set ExecutionPolicy Unrestricted`
 4. Run `npm i`
-5. Run `$env:NODE_TLS_REJECT_UNAUTHORIZED=0` 
+5. Run `$env:NODE_TLS_REJECT_UNAUTHORIZED=0` . This helps with an https issue of next.js. If you continue to have https issues, please add a "http" binding for your site in IIS and use the HTTP urls in the next step.
 6. Run `jss setup`
     - Note: API key is already created and serialized. Use: `F14140A1-C283-4A8C-B8A3-1AEC85E5A218`
 7. Run `jss deploy config`
