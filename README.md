@@ -18,11 +18,7 @@ Best enhancement to SXA Headless
 
 
 ## Video link
-⟹ Provide a video highlighing your Hackathon module submission and provide a link to the video. You can use any video hosting, file share or even upload the video to this repository. _Just remember to update the link below_
-
-![Video Link](docs/images/Content-Editor.webm.mov "Video Link")
-
-
+<video src='docs/images/Content-Editor.webm.mov' width='480' />
 
 ## Pre-requisites and Dependencies
 
