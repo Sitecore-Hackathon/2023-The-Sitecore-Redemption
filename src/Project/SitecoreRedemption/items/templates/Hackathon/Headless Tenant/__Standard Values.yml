@@ -1,0 +1,27 @@
+﻿---
+ID: "3ac56963-6226-487a-b196-2a7cfa3bdede"
+Parent: "4793e4b6-74e3-463f-88c3-50be555a2363"
+Template: "4793e4b6-74e3-463f-88c3-50be555a2363"
+Path: /sitecore/templates/Project/Hackathon/Headless Tenant/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230304T054302Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "04e265a7-a211-4a8e-85e4-76845d2d50fc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230304T054302Z
