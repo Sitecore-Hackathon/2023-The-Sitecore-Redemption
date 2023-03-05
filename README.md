@@ -18,7 +18,9 @@ Best enhancement to SXA Headless
 
 
 ## Video link
-<video src='docs/images/Content-Editor.webm.mov' width='480' />
+[![Sitecore Redemption Video](https://img.youtube.com/vi/iXi2JW61yqs/0.jpg)](https://www.youtube.com/watch?v=iXi2JW61yqs)
+
+[Direct video link](https://youtu.be/iXi2JW61yqs)
 
 ## Pre-requisites and Dependencies
 
@@ -34,6 +36,10 @@ Best enhancement to SXA Headless
 ### Prerequisites
   - Obtain an OpenAI API Key using from your [OpenAI account](https://platform.openai.com/account/api-keys).  Create an account if necessary.
   - Clone the repo
+  - Open the following files, and add your API key: (This can be moved into an environment variable in the future)
+    - src\redemption-sxa-app\src\components\ImageAI.tsx (line 10)
+    - src\redemption-sxa-app\src\components\RichTextAI.tsx (line 10)
+
 
 #### Sitecore Setup
 

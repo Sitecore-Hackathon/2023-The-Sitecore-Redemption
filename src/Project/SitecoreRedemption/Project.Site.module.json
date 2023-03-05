@@ -1,0 +1,33 @@
+{
+    "$schema": "../../../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "Project.Site",
+    "items": {
+        "includes": [
+            {
+                "name": "templates",
+                "path": "/sitecore/templates/Project/Hackathon",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "renderings",
+                "path": "/sitecore/layout/Renderings/Project/Hackathon",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "content",
+                "path": "/sitecore/content/Hackathon",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "renderinghost",
+                "path": "/sitecore/system/Settings/Services/Rendering Hosts/Default",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "apikey",
+                "path": "/sitecore/system/Settings/Services/API Keys/Redemption API Key",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            }
+        ]
+    }
+}
