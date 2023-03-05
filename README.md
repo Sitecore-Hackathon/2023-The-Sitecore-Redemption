@@ -74,7 +74,7 @@ Ensure that .env is correctly setup for your environment.
 ![Toolbar](docs/images/toolbox.png?raw=true "Toolbar")
 3. You should be presented with an dialog to enter a "Prompt".  This will be used to Render the AI-generated content.
 
-![AI Prompt](docs/images/ai-prompt.png?raw=true "AI Prompt")
+![AI Prompt](docs/images/AI-Prompt.png?raw=true "AI Prompt")
 
 4. You should see the AI generated content.  Publish the page.
 
